@@ -1,0 +1,49 @@
+@import url(blocks/bootstrap.css);
+@import url(../css/index.css);
+@import url(blocks/normalize.css);
+@import url(blocks/header.css);
+@import url(blocks/footer.css);
+@import url(blocks/catalog.css);
+@import url(blocks/to-order.css);
+@import url(blocks/master-class.css);
+@import url(blocks/shopping-cart.css);
+
+
+
+@font-face {
+	font-family: "Nyasha Sans";
+	src: local("Nyasha Sans"),
+		local("Nyasha Sans"),
+		url("fonts/nyashasans.ttf");
+}
+
+@font-face {
+	font-family: "PT Sans";
+	src: local("PT Sans"),
+		local("PT Sans"),
+		url("/fonts/PTSans-Regular.ttf");
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	max-width: 1128px;
+	margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+	margin: 0;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+* {
+	box-sizing: border-box;
+}

@@ -1,0 +1,47 @@
+.header {
+	/* position: fixed; */
+	background-color: rgba(247, 156, 62, 1);
+}
+
+.header__nav {
+	height: 28px;
+}
+
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.header__logo-img {
+	width: 90px;
+	height: 90px;
+}
+
+.header__but-img {
+	width: 36px;
+	height: 32px;
+}
+
+.header__link {
+	font-family: "Nyasha Sans";
+	color: rgba(255, 255, 255, 1);
+	/* color: rgba(41, 41, 41, 1); */
+}
+
+.header__menu {
+	display: flex;
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.header__item {
+	padding-left: 40px;
+	font-size: 20px;
+}
+
+.header__item:first-child {
+	padding-left: 0;
+}
+

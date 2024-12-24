@@ -1,0 +1,554 @@
+.hero__area {
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	flex-flow: column wrap;
+	/* padding: 50px 0  50px 0; */
+	margin: 50px 0 50px 0;
+}
+
+.hero__img {
+	width: 288px;
+	height: 505px;
+	border-radius: 50px;
+	background-color: rgba(41, 41, 41, 1);
+}
+
+.left {
+	background-image: url(../css/fotos/Дивичник.jpg);
+}
+
+.right {
+	background-image: url(../css/fotos/Счастливый_ребенок.jpg)
+}
+
+.left,
+.hero__text,
+.right {
+	display: flex;
+	justify-content: space-between;
+}
+
+.hero__text {
+	width: 520px;
+	height: 505px;
+	border-radius: 50px;
+	background-color: rgba(226, 108, 58, 1);
+	/* gap: 10vh; */
+	display: flex;
+	flex-flow: column wrap;
+	padding: 185px 0px 35px 0px;
+}
+
+.hero__title {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.hero__name,
+.hero__preview {
+	color: rgba(255, 235, 185, 1);
+	font-family: "Nyasha Sans";
+	display: flex;
+	justify-content: center;
+}
+
+.hero__name {
+	font-size: 70px;
+	padding-bottom: 15px;
+}
+
+.hero__preview {
+	font-size: 25px;
+}
+
+.hero__buttons {
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+}
+
+.hero__but {
+	width: 200px;
+	height: 60px;
+	border-radius: 50px;
+	background-color: rgba(255, 235, 185, 1);
+	display: flex;
+	align-items: center;
+}
+
+.catalog-main,
+.creation-main {
+	display: flex;
+	justify-content: center;
+	font-family: "Nyasha Sans";
+	color: rgba(41, 41, 41, 1);
+}
+
+
+.advantage__title {
+	padding-top: 50px;
+}
+
+h2 {
+	display: flex;
+	justify-content: center;
+	font-size: 50px;
+	font-family: "Nyasha Sans";
+	color: rgba(41, 41, 41, 1);
+	padding: 100px 0 50px 0;
+}
+
+/* advantages */
+.advantage__items {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 25px;
+	grid-row-gap: 25px;
+}
+
+.advantage__item {
+	/* width: 25vw;
+    height: 25vh; */
+	border-radius: 50px;
+	background-color: rgba(255, 216, 117, 1);
+	padding: 26px 72px 30px 72px;
+}
+
+.advantage__img {
+	width: 68px;
+	height: 68px;
+}
+
+.advantage__text {
+	font-family: "PT Sans";
+	color: rgba(41, 41, 41, 1);
+	font-size: 25px;
+	margin-top: 12px;
+}
+
+
+/* hits */
+.hits__line {
+	padding: 50px 0 50px 0;
+	background-color: rgba(247, 156, 62, 1);
+}
+
+.hits__items {
+	display: flex;
+	justify-content: space-between;
+}
+
+.hits__img {
+	width: 190px;
+	height: 235px;
+	border-radius: 50px;
+}
+
+.hits__but {
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+}
+
+.hits__link {
+	width: 250px;
+	height: 60px;
+	border-radius: 50px;
+	background-color: rgba(255, 216, 117, 1);
+
+	color: rgba(41, 41, 41, 1);
+	font-size: 25px;
+	font-family: "Nyasha Sans";
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/* master-class */
+.master-class__items-main {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 25px;
+	grid-row-gap: 0px;
+}
+
+.master-class__item-main {
+	width: 360px;
+	height: 485px;
+	border-radius: 50px;
+	background-color: rgba(255, 216, 117, 1);
+}
+
+.master-class__img-main {
+	width: 360px;
+	height: 240px;
+	border-radius: 50px 50px 0 0;
+}
+
+.master-class__info-area {
+	display: flex;
+	justify-content: center;
+	font-family: "Nyasha Sans";
+	margin-top: 15px;
+}
+
+.master-class__item-title {
+	color: rgba(226, 108, 58, 1);
+	font-size: 32px;
+}
+
+.master-class__price {
+	color: rgba(41, 41, 41, 1);
+	font-size: 40px;
+	/* margin-top: 10px; */
+}
+
+.master-class__but-main {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.master-class__link {
+	width: 260px;
+	height: 60px;
+	border-radius: 50px;
+	background-color: rgba(226, 108, 58, 1);
+
+	color: rgb(255, 255, 255);
+	font-size: 25px;
+	font-family: "Nyasha Sans";
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/* to-order__item */
+.to-order__area {
+	background-color: rgba(255, 235, 185, 1);
+}
+
+.to-order__container {
+	padding: 20px;
+}
+
+.to-order__items {
+	display: flex;
+	justify-content: space-between;
+}
+
+.to-order__item {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+
+.to-order__item-img {
+	display: flex;
+	justify-content: space-between;
+}
+
+.to-order__img {
+	border-radius: 50px;
+}
+
+.img1 {
+	width: 288px;
+	height: 288px;
+}
+
+.img2 {
+	width: 190px;
+	height: 190px;
+}
+
+.img3 {
+	width: 195px;
+	height: 295px;
+}
+
+.img4 {
+	width: 155px;
+	height: 155px;
+}
+
+.img5 {
+	width: 230px;
+	height: 160px;
+}
+
+.img6 {
+	width: 265px;
+	height: 265px;
+}
+
+.img7 {
+	width: 165px;
+	height: 165px;
+}
+
+.img8 {
+	width: 230px;
+	height: 295px;
+}
+
+.img5, .img6, .img7, .img8 {
+	margin-top: 20px;
+}
+
+.to-order__but {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.to-order__link {
+	width: 260px;
+	height: 60px;
+	border-radius: 50px;
+	background-color: rgba(247, 156, 62, 1);
+
+	color: rgb(255, 255, 255);
+	font-size: 25px;
+	font-family: "Nyasha Sans";
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/* questions */
+.questions__container {
+	max-width: 985px;
+	margin: 0 auto;
+
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.accordion-color {
+	background-color: rgba(255, 216, 117, 1);
+
+}
+
+.accordion-item {
+    border: none;
+	margin-bottom: 30px;
+}
+/*
+.accordion-button {
+	width: 985px;
+    height: 65px;
+
+    border-radius: 50px;
+	box-shadow: none;
+    
+	font-family: "PT Sans";
+	color: rgba(41, 41, 41, 1);
+	font-size: 20px;
+
+    background-color: rgba(255, 216, 117, 1);
+}
+
+.accordion-button:focus {
+	background-color: rgba(255, 216, 117, 1);
+	box-shadow: none;
+	border-radius: 50px 50px 0 0;
+
+	font-family: "PT Sans";
+	color: rgba(41, 41, 41, 1);
+	font-size: 20px;
+}
+
+.accordion-button:not(.collapsed) {
+	background-color: rgba(255, 216, 117, 1);
+
+	font-family: "PT Sans";
+	color: rgba(41, 41, 41, 1);
+	font-size: 20px;
+}
+*/
+
+.accordion-body {
+	background-color: rgba(255, 235, 185, 1);
+	/* border-radius: 0 0 50px 50px; */
+	border-radius: 50px;
+	font-family: "PT Sans";
+	color: rgba(41, 41, 41, 1);
+	font-size: 16px;
+}
+
+.questions__area {
+	width: 985px;
+	height: 290px;
+	border-radius: 50px;
+	margin-top: 10px;
+	background-color: rgba(255, 235, 185, 1);
+	display: flex;
+	justify-content: center;
+}
+
+.questions__inp-person {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 25px 60px 25px 0;
+}
+
+.questions__quest-text {
+	font-family: "PT Sans";
+	color: rgba(41, 41, 41, 1);
+	font-size: 32px;
+}
+
+.questions__inp {
+	font-family: "PT Sans";
+	border: none;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.question {
+	width: 465px;
+	height: 240px;
+	border-radius: 50px;
+	font-size: 25px;
+	margin: 25px 60px 25px 60px;
+	padding: 30px 0 0 20px;
+	/* text-align: start; */
+}
+
+.name,
+.number {
+	width: 340px;
+	height: 60px;
+	border-radius: 50px;
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+.question:focus,
+.name:focus,
+.number:focus {
+	outline: 3px solid rgba(226, 108, 58, 1);
+}
+
+.questions__but {
+	width: 290px;
+	height: 75px;
+	font-family: "Nyasha Sans";
+	font-size: 32px;
+	color: rgba(255, 255, 255, 1);
+	border: none;
+	border-radius: 50px;
+	background-color: rgba(226, 108, 58, 1);
+}
+
+.questions__but-person {
+	display: flex;
+	justify-content: center;
+}
+
+
+/* reviews */
+.reviews__container {
+	max-width: 843px;
+	margin: 0 auto;
+}
+
+.reviews__items {
+	display: flex;
+	justify-content: space-between;
+	height: 870px;
+}
+
+.reviews__items-left,
+.reviews__items-right {
+	display: flex;
+	flex-direction: column;
+}
+
+.reviews__items-left {
+	margin-bottom: 80px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.reviews__items-right {
+	margin-top: 80px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+/* contacts */
+.contacts__all {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contacts__items {
+	width: 577px;
+	height: 525px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.contacts__text-area {
+	width: 450px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.contacts__text {
+	font-size: 32px;
+	color: rgba(41, 41, 41, 1);
+	font-family: "PT Sans";
+	margin-bottom: 20px;
+}
+
+.contacts__podtext {
+	font-size: 25px;
+	color: rgba(41, 41, 41, 1);
+	font-family: "PT Sans";
+}
+
+.contacts__img-area {
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contacts__but {
+	margin-top: 20px;
+
+	width: 405px;
+	height: 85px;
+	border: 0;
+	border-radius: 50px;
+	background-color: rgba(226, 108, 58, 1);
+
+	color: rgb(255, 255, 255);
+	font-size: 25px;
+	font-family: "Nyasha Sans";
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contacts__map {
+	width: 551px;
+	height: 525px;
+}

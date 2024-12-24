@@ -1,0 +1,87 @@
+.footer {
+	max-width: 1128px;
+	margin: 0 auto;
+	/* border-top: 2px solid rgba(247, 156, 62, 1); */
+}
+
+.footer__items {
+	display: flex;
+	justify-content: space-between;
+	margin: 100px 10px 0 10px;
+}
+
+.footer__name {
+	width: 265px;
+	height: 130px;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__logo {
+	display: flex;
+	align-self: center;
+}
+
+.footer__name-text {
+	margin-bottom: 20px;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: end;
+}
+
+.footer__contacts {
+	width: 280px;
+	height: 130px;
+
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.footer__text-numbers {
+	display: flex;
+	gap: 30px;
+}
+
+.footer__networks {
+	width: 250px;
+	height: 130px;
+}
+
+.footer__logo-img {
+	width: 65px;
+	height: 65px;
+	margin: 0 25px 0 10px;
+}
+
+.footer__img-area {
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__img {
+	width: 43px;
+	height: 43px;
+}
+
+.footer__title {
+	font-size: 20px;
+	font-family: "Nyasha Sans";
+	color: rgba(41, 41, 41, 1);
+}
+
+.footer__text-title {
+	font-size: 20px;
+	font-family: "PT Sans";
+	color: rgba(226, 108, 58, 1);
+}
+
+.footer__text {
+	font-size: 16px;
+	font-family: "PT Sans";
+	color: rgba(41, 41, 41, 1);
+}
